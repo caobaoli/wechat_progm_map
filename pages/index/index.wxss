@@ -1,0 +1,96 @@
+
+.container {
+  opacity: 0.75;
+  font-family: 'track'!important;
+}
+
+.logo {
+  width: 300rpx;
+  height: 350rpx;
+}
+
+.signTitle {
+  display: flex;
+  margin: 80rpx 0 30rpx 0;
+}
+
+.whiteLine {
+  height: 5rpx;
+  background-color: #fff;
+  width: 40%;
+  border-radius: 20rpx;
+}
+
+input {
+  color: #393F48;
+  width: 60%;
+  height: 60rpx;
+  border: 3rpx #393F48 solid;
+  border-radius: 10rpx;
+  margin-top: 30rpx;
+  padding: 5px 15px;
+}
+
+.ph {
+  color: #393F48;
+}
+
+.numWaring {
+  position: fixed;
+  right: 50rpx;
+  top: 585rpx;
+}
+
+.psdWaring {
+  position: fixed;
+  right: 50rpx;
+  top: 715rpx;
+}
+
+.num-true {
+  display: inherit;
+}
+.num-false {
+  display: none;
+}
+.psd-true {
+  display: inherit;
+}
+.psd-false {
+  display: none;
+}
+
+.loginBtn {
+  width: 68%;
+  height: 90rpx;
+  margin-top: 50rpx;
+  border: 3rpx #393F48 solid!important;
+  color: #393F48!important;
+}
+
+.btnHover {
+  opacity: 0.5;
+  background-color: red;
+
+}
+
+.newAlert {
+  padding: 15rpx 30rpx;
+  display: block;
+  text-align: center;
+}
+
+.info {
+  color: #fff;
+  font-size: 25rpx;
+  margin-top: 50rpx;
+  text-decoration: underline;
+}
+
+.footer {
+  display: flex;
+  position: fixed;
+  color: #fff!important;
+  bottom: 10rpx;
+  font-size: 22rpx;
+}

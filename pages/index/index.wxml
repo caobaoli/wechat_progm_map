@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <image src="../../resource/images/logo.png" mode="aspectFit" class="logo"></image>
+  <block>
+    <input type="text" bindinput="phonenumberInput" placeholder="用户名" placeholder-class="ph" />
+    <input type="text" bindinput="passwordInput" placeholder="密码" placeholder-class="ph" password="true"/>
+  </block>
+
+  <button class="loginBtn" bindtap="loginSubmit" plain="true" hover-class="btnHover">登录</button>
+  <button class="loginBtn"  bindtap="forword" plain="true" hover-class="btnHover">跳转</button>
+</view>
+
+<modal title="提示" hidden="{{modalHidden}}" no-cancel bindconfirm="modalChange">
+  <view class="newAlert"> {{modelInnerHtml}} </view>
+</modal>
+
+<loading hidden="{{loadingHidden}}" bindchange="loadingChange">
+  加载中...
+</loading>
